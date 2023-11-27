@@ -15,11 +15,11 @@ If you want to add a new project, please create a new folder with the name of th
 
 ### Planned projects:
 
-[] Java Development Kit (Centurion)
-[] C++ & C Compiler
-[] Game Engine Framework (C++ & Java)
-[] Web Server (Javascript)
-[] Game Client (Minecraft Upgraded)
+[] Java Development Kit (Centurion) <br>
+[] C++ & C Compiler <br>
+[] Game Engine Framework (C++ & Java) <br>
+[] Web Server (Javascript) <br>
+[] Game Client (Minecraft Upgraded) <br>
 
 ## License
 
