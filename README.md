@@ -1,4 +1,4 @@
-# The FCCL Compiler Infrastructure
+# The FCCL Infrastructure
 
 ## :warning: This project is still under heavy development :warning:
 
