@@ -9,18 +9,19 @@ JDK's, programming languages, and more!
 
 ## Contributing
 
-If you want to contribute to this project. Please send a PR with your changes and we will review it.
+If you want to contribute to this project. Please send a PR with your changes and we will review 
+it.
 
-If you want to add a new project, please create a new folder with the name of the project and add a README.md.
+If you want to add a new project, please create a new folder with the name of the project and add 
+a README.md.
 
 ### Planned projects:
 
-[] Java Development Kit (Centurion) <br>
+[] Java Development Kit (Gladiator) <br>
 [] C++ & C Compiler <br>
 [] Game Engine Framework (C++ & Java) <br>
-[] Web Server (Javascript) <br>
-[] Game Client (Minecraft Upgraded) <br>
+[] Minecraft server (Java)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.TXT) file for details.
