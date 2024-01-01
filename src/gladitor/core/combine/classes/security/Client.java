@@ -1,5 +1,8 @@
 package core.combine.classes.security;
 
+import core.combine.classes.java.lang.annotations.Unuseable;
+
+@Unuseable
 public class Client {
     private final String hostname;
     private final String username;
