@@ -74,6 +74,7 @@ import static java.lang.annotation.ElementType.*;
  * the {@code @deprecated} javadoc tag is present, and vice-versa.
  *
  * @author  Neal Gafter
+ * @author Logan Abernathy
  * @since 1.5
  * @jls 9.6.4.6 @Deprecated
  */
@@ -100,4 +101,12 @@ public @interface Deprecated {
      * @since 9
      */
     boolean forRemoval() default false;
+
+    /**
+     * Indicates whether the annotated element is in development. The default
+     * value is {@code false}. This is still
+     * @return whether the element is in development
+     * @since 23
+     */
+    boolean inDevelopment() default false;
 }
