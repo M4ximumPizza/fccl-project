@@ -17,7 +17,7 @@ a README.md.
 
 ### Planned projects:
 
-[] Java Library (Java) [Gladiator] <br>
+[] Java Library [Gladiator] <br>
 [] C++ & C Compiler <br>
 [] Game Engine Framework (C++ & Java) <br>
 [] Minecraft server (Java)
