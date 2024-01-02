@@ -9,18 +9,13 @@ JDK's, programming languages, and more!
 
 ## Contributing
 
-If you want to contribute to this project. Please send a PR with your changes and we will review 
-it.
-
-If you want to add a new project, please create a new folder with the name of the project and add 
-a README.md.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ### Planned projects:
 
-[] Java Library [Gladiator] <br>
+[] Java Development Kit [Gladiator] <br>
 [] C++ & C Compiler <br>
 [] Game Engine Framework (C++ & Java) <br>
-[] Minecraft server (Java)
 
 ## License
 
