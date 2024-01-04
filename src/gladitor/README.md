@@ -1,4 +1,4 @@
-# Gladiator Projectk
+# Gladiator Project
 
 ## Overview
 
