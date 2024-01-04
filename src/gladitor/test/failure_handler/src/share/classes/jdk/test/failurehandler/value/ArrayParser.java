@@ -32,31 +32,22 @@ public class ArrayParser implements ValueParser {
     public ArrayParser(ValueParser parser) {
         Objects.requireNonNull(parser);
         this.parser = parser;
-        this.secureParser = new SecureParser(); // Initialize the SecureParser
     }
 
     @Override
     public Object parse(Class<?> type, String value, String delimiter) {
-        Objects.requireNonNull(type, "Type cannot be null");
-        Objects.requireNonNull(delimiter, "Delimiter cannot be null");
-
-        if (!type.isArray()) {
-            throw new IllegalArgumentException("Only array types are supported");
-        }
-
         Class<?> component = type.getComponentType();
-
         if (component.isArray()) {
-            throw new IllegalArgumentException("Multidimensional array fields aren't supported");
+            throw new IllegalArgumentException(
+                    "multidimensional array fields aren't supported");
         }
-
-        String[] values = (value == null || value.isEmpty()) ? new String[]{} : value.split(Pattern.quote(delimiter));
+        String[] values = (value == null || value.isEmpty())
+                          ? new String[]{}
+                          : value.split(delimiter);
         Object result = Array.newInstance(component, values.length);
-
-        for (int i = 0; i < values.length; ++i) {
-            Array.set(result, i, secureParser.parseSecurely(component, values[i], delimiter));
+        for (int i = 0, n = values.length; i < n; ++i) {
+            Array.set(result, i, parser.parse(component, values[i], delimiter));
         }
-
         return result;
     }
 }
