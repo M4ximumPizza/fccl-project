@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Gladiator Project, a fork of the OpenJDK project aarch64-port. Our mission is to significantly enhance various critical aspects of the JDK to bolster security, performance, and functionality.
+Welcome to the Gladiator Project, a fork of the jdk. Our mission is to significantly enhance various critical aspects of the JDK to bolster security, performance, and functionality.
 
 ## Project Goals
 
