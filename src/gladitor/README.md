@@ -4,6 +4,8 @@
 
 Welcome to the Gladiator Project, a fork of the jdk. Our mission is to significantly enhance various critical aspects of the JDK to bolster security, performance, and functionality.
 
+The main goal of this project is to make a operating system purly in Java. So the Java code will compile into Machine Code instead of just Bytecode. 
+
 ## Project Goals
 
 ### Security Enhancements:
